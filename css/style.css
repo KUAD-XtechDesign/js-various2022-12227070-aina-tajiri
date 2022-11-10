@@ -28,7 +28,15 @@ p{
     margin-right: 80px;
     font-size: 21px;
     font-family: 'EB Garamond', serif;
-    color: rgb(21, 60, 43);
+    color: rgb(22, 57, 41);
+}
+
+.list p{
+    transition: 0.3s;
+}
+
+.list p:hover {
+    color: rgb(98, 113, 105);
 }
 
 .contents{
@@ -37,14 +45,16 @@ p{
 }
 
 .box{
-    margin: 100px auto;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 110px;
     width: 80vw;
-    height: 500px;
+    height: 480px;
 }
 
 .box img{
     width: 80vw;
-    height: 500px;
+    height: 480px;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -70,7 +80,7 @@ footer{
     text-align: center;
     font-size: 16px;
     height: 70px;
-    background-color: rgb(21, 60, 43);
+    background-color: rgb(22, 57, 41);
     padding: 25px 0;
     letter-spacing: 2px;
     margin-top: 100px;
@@ -81,9 +91,9 @@ footer{
     position: fixed;
     top: 0px;
     left: 0px;
-    width: 25px;
-    height: 25px;
-    background-color: rgba(34, 61, 49, 0.8);
+    width: 20px;
+    height: 20px;
+    background-color: rgba(34, 61, 49, 0.7);
     border-radius: 50%;
     transition: 0.2s;
     transition-timing-function: ease-out;
@@ -115,7 +125,6 @@ footer{
 }
 
 /*========= SVGアニメーション ==========*/
-
 #mask path {
         fill-opacity: 0;
         transition: fill-opacity .5s;
@@ -127,4 +136,32 @@ footer{
     fill: rgb(22, 57, 41);
     fill-opacity: 1;
     stroke: none;
+    }
+
+
+    /*========= スクロールアニメーション ==========*/
+.fadeUp{
+    animation-name:fadeUpAnime;
+    animation-duration:1s;
+    animation-fill-mode:forwards;
+    opacity:0;
+    }
+    
+    @keyframes fadeUpAnime{
+        from {
+        opacity: 0;
+        transform: translateY(100px);
+        }
+    
+        to {
+        opacity: 1;
+        transform: translateY(0);
+        }
+    }
+    
+    
+    /* スクロールをしたら出現する要素にはじめに透過0を指定　*/
+        
+    .fadeUpTrigger{
+        opacity: 0;
     }

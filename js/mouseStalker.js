@@ -19,7 +19,7 @@ $(mouseStalkerArea).hover(function(){
 });
 
 $(mouseTarget).hover(function(e){
-    scale = 4;
+    scale = 3.5;
     let x = e.clientX - cssPosAjust;
     let y = e.clientY - cssPosAjust;
     $(mouseStalker).css({
