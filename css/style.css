@@ -111,7 +111,7 @@ footer{
     height: 18px;
     background-color: rgba(34, 61, 49, 0.7);
     border-radius: 50%;
-    transition: 0.2s;
+    transition: 0.18s;
     transition-timing-function: ease-out;
     pointer-events: none;
     z-index: 10;
