@@ -35,10 +35,6 @@ p{
     transition: 0.3s;
 }
 
-.list p:hover {
-    color: rgb(22, 57, 41);
-}
-
 .contents{
     width: 100%;
 }
@@ -84,6 +80,27 @@ footer{
     letter-spacing: 2px;
     margin-top: 100px;
 }
+
+.link_button{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 115px;
+    width: 200px;
+    border: 2px solid rgb(22, 57, 41);
+    color: rgb(22, 57, 41);
+    letter-spacing: 2px;
+    padding: 15px 30px;
+    font-family: 'EB Garamond', serif;
+    transition: 0.3s;
+}
+
+.link_button:hover{
+    background-color: rgb(22, 57, 41);
+    color: #f9f9f9;
+}
+
 
 /*=========== マウスストーカー ===========*/
 #stkr{
