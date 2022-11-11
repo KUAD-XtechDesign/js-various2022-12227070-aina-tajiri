@@ -36,12 +36,11 @@ p{
 }
 
 .list p:hover {
-    color: rgb(98, 113, 105);
+    color: rgb(22, 57, 41);
 }
 
 .contents{
     width: 100%;
-
 }
 
 .box{
@@ -91,8 +90,8 @@ footer{
     position: fixed;
     top: 0px;
     left: 0px;
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     background-color: rgba(34, 61, 49, 0.7);
     border-radius: 50%;
     transition: 0.2s;
@@ -159,9 +158,6 @@ footer{
         }
     }
     
-    
-    /* スクロールをしたら出現する要素にはじめに透過0を指定　*/
-        
     .fadeUpTrigger{
         opacity: 0;
     }

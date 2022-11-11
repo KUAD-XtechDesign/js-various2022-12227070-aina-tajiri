@@ -1,5 +1,5 @@
 const mouseStalker = "#stkr";
-const mouseTarget = ".box";
+const mouseTarget = ".mouse";
 const mouseStalkerArea = window;
 
 const stkrSize = parseInt($(mouseStalker).css("width").replace(/px/, ""));
@@ -19,7 +19,7 @@ $(mouseStalkerArea).hover(function(){
 });
 
 $(mouseTarget).hover(function(e){
-    scale = 3.5;
+    scale = 3.2;
     let x = e.clientX - cssPosAjust;
     let y = e.clientY - cssPosAjust;
     $(mouseStalker).css({
