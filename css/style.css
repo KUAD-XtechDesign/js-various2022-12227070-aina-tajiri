@@ -51,7 +51,7 @@ p{
     width: 80vw;
     height: 480px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .img1{
@@ -75,10 +75,10 @@ footer{
     text-align: center;
     font-size: 16px;
     height: 70px;
-    background-color: rgb(22, 57, 41);
+    background-color: rgb(28, 61, 46);
     padding: 25px 0;
     letter-spacing: 2px;
-    margin-top: 100px;
+    margin-top: 140px;
 }
 
 .link_button{
@@ -155,7 +155,7 @@ footer{
     }
 
 
-    /*========= スクロールアニメーション ==========*/
+/*========= スクロールアニメーション ==========*/
 .fadeUp{
     animation-name:fadeUpAnime;
     animation-duration:0.6s;
